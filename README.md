@@ -10,4 +10,4 @@
 * Enter the command ```python3 popUpScreen.py```
 
 ### Other
-* For more information on constants and formulas used, reference the file titled 'Constants and Formulas (calculator).txt'
+* For more information on constants and formulas used, reference the file titled [Constants_and_Formulas_calculator.txt](https://github.com/avneet-kaur29/EQUBS-Calculator/blob/main/Constants_and_Formulas_calculator.txt)
