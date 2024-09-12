@@ -1,0 +1,36 @@
+Constants
+
+
+ Avogadro’s number = 6.02214076e+23
+* Source: https://www.nist.gov/pml/owm/si-units-amount-substance#:~:text=One%20mole%20(mol)%20contains%20exactly,number%20of%20specified%20elementary%20entities.
+
+
+Diamond lattice constant = 3.567095e-10
+* Source: https://iopscience.iop.org/article/10.7567/JJAP.57.111301/meta
+
+
+Carbons per unit cell = 8
+
+
+Molar mass of 12C = 12 g/mol
+
+
+Molar mass of 13C = 13 g/mol
+
+
+Formulas
+
+molar mass = (%abundance of isotope 1)/100*mass of isotope 1 + (%abundance of isotope 2)/100*mass of isotope 2
+
+diamond density = (Carbons per unit cell * molar mass)/(Avogadro's number * (diamond lattice constant)3)
+
+V= (4/3)pi(d/2)^3
+
+NV Number Density = (ppm/10^6)*(Avogadro's Number*diamond density)/molar mass
+
+NVs/ND = NV Number Density * Volume 
+
+Mass per ND = diamond density * volume
+
+Molar Concentration = dispersion/((mass/ND)*Avogadro's Number)
+
