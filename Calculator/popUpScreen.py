@@ -43,7 +43,7 @@ def window():
 
     def sectionTwoClicked(self):
         try:
-            lbl_mass_per_nd.setText("Mass per ND " + str(calcs.mass_per_nd(float(inp13C.text()), float(inpNDd.text()))) + " mg")
+            lbl_mass_per_nd.setText("Mass per ND " + str(calcs.mass_per_nd(float(inp13C.text()), float(inpNDd.text()))) + " g")
             lbl_mass_per_nd.move(600, 270)
 
             lbl_molar_concentration.setText("Molar concentration " + str(calcs.molar_concentration(float(inp13C.text()), float(inpMassC.text()), float(inpNDd.text()))) + " M")
