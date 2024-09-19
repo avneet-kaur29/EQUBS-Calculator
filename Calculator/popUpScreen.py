@@ -26,7 +26,7 @@ def window():
             lbl_diamond_density.setText("Isotope-weighted diamond density:  " + str(calcs.diamond_density(float(inp13C.text()))) + " g/cm^3")
             lbl_diamond_density.move(600, 70)
 
-            lbl_number_density.setText("NV-doping concentration  " + str(calcs.number_density(float(inp13C.text()), float(inpNVd.text()))) + " per cm^3")
+            lbl_number_density.setText("NV-doping concentration:  " + str(calcs.number_density(float(inp13C.text()), float(inpNVd.text()))) + " per cm^3")
             lbl_number_density.move(600, 110)
 
             lbl_nvs_per_nd.setText(str(calcs.nvs_per_nd(float(inp13C.text()), float(inpNVd.text()), float(inpNDd.text()))) + " NVs per ND")
@@ -46,10 +46,10 @@ def window():
 
     def sectionTwoClicked(self):
         try:
-            lbl_mass_per_nd.setText("Mass per ND " + str(calcs.mass_per_nd(float(inp13C.text()), float(inpNDd.text()))) + " g")
+            lbl_mass_per_nd.setText("Mass per ND: " + str(calcs.mass_per_nd(float(inp13C.text()), float(inpNDd.text()))) + " g")
             lbl_mass_per_nd.move(600, 270)
 
-            lbl_molar_concentration.setText("Molar concentration " + str(calcs.molar_concentration(float(inp13C.text()), float(inpMassC.text()), float(inpNDd.text()))) + " M")
+            lbl_molar_concentration.setText("Molar concentration: " + str(calcs.molar_concentration(float(inp13C.text()), float(inpMassC.text()), float(inpNDd.text()))) + " M")
             lbl_molar_concentration.move(600, 310)
         except:
             lbl_mass_per_nd.setText("Please enter a number or enter numbers for section 1")
