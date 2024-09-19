@@ -35,6 +35,8 @@ def window():
             lbl_diamond_density.setText("Please enter a number")
             lbl_diamond_density.move(600, 70)
 
+            lbl_number_density.setText("")
+
     lbl_mass_per_nd = QLabel(win)
     lbl_mass_per_nd.resize(500, 20)
 
