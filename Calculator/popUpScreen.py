@@ -36,6 +36,7 @@ def window():
             lbl_diamond_density.move(600, 70)
 
             lbl_number_density.setText("")
+            lbl_nvs_per_nd.setText("")
 
     lbl_mass_per_nd = QLabel(win)
     lbl_mass_per_nd.resize(500, 20)
@@ -53,6 +54,8 @@ def window():
         except:
             lbl_mass_per_nd.setText("Please enter a number or enter numbers for section 1")
             lbl_mass_per_nd.move(600, 270)
+
+            lbl_molar_concentration.setText("")
 
     # Section One
     lblSecOne = QLabel(win)
