@@ -32,10 +32,10 @@ class Calculations:
 
     # mass per ND = density of diamond * volume of ND
     def mass_per_nd(self, percent_13, nd_diameter):
-        return self.diamond_density(percent_13) * self.volume(nd_diameter) * 1000
+        return self.diamond_density(percent_13) * self.volume(nd_diameter)
 
     # molar concentration = dispersion * 1000 / (mass per nd * avogadro's number)
     def molar_concentration(self, percent_13, dispersion, nd_diameter):
-        return (dispersion * 1000)/(self.mass_per_nd(percent_13, nd_diameter) * self.avogadros_number)
+        return (dispersion)/(self.mass_per_nd(percent_13, nd_diameter) * self.avogadros_number)
 
 
